@@ -6,7 +6,7 @@ data "terraform_remote_state" "azure-policy-demo" {
   config = {
     organization = "SAP_Multicloud"
     workspaces = {
-      name = "azure-policy-demo"
+      name = "azure-policies-demo"
     }
   }
 }
