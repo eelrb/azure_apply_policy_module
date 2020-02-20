@@ -3,5 +3,5 @@ variable requiredTag {
 }
 
 variable policy_1_enabled {
-  default = 1
+  default = 0
   }
