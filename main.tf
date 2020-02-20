@@ -1,3 +1,4 @@
+provider "tfe"{}
 
 data "terraform_remote_state" "azure-policy-" {
   backend = "remote"
