@@ -1,12 +1,12 @@
 provider "tfe" {}
 
-data "terraform_remote_state" "azure-policy-" {
+data "terraform_remote_state" "azure-policy-demo" {
   backend = "remote"
 
   config = {
-    organization = "hashicorp"
+    organization = "SAP_Multicloud"
     workspaces = {
-      name = "vpc-prod"
+      name = "azure-policy-demo"
     }
   }
 }
