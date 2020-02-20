@@ -31,6 +31,7 @@ PARAMETERS
 
 
 resource "azurerm_policy_assignment" "requiredTag" {
+  count                = var.policy_1_enabled
   name                 = "Audit-RequiredTag-${var.requiredTag}"
   display_name         = "Assign Required Tag '${var.requiredTag}'"
   description          = "Assignment of Required Tag Policy for '${var.requiredTag}'"
