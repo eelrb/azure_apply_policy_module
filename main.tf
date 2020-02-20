@@ -10,13 +10,7 @@ data "terraform_remote_state" "azure-policy-demo" {
   }
 }
 
-resource "azurerm_policy_definition" "blee-policy-1" {
-  policy_1_id = 
-}
 
-
-
-/*
 
 
 data "azurerm_subscription" "current" {}
@@ -46,4 +40,4 @@ resource "azurerm_policy_assignment" "requiredTag" {
   
   }
   
-  */
+ 
