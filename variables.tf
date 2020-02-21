@@ -1,5 +1,3 @@
-variable subscription {}
-
 variable requiredTag {
   default = "abc123blee"
 }
