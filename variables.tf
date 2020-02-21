@@ -1,3 +1,5 @@
+variable subscription {}
+
 variable requiredTag {
   default = "abc123blee"
 }
@@ -13,3 +15,5 @@ variable policy_2_enabled {
 variable policy_3_enabled {
   default = 0
   }
+
+
