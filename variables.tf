@@ -3,7 +3,7 @@ variable requiredTag {
 }
 
 variable policy_1_enabled {
-  default = 0
+  default = 1
   }
 
 variable policy_2_enabled {
@@ -11,5 +11,5 @@ variable policy_2_enabled {
   }
 
 variable policy_3_enabled {
-  default = 0
+  default = 1
   }
